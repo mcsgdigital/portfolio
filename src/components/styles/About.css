@@ -8,6 +8,7 @@
     width: 25vw;
     text-align: left;
     place-self: center;
+    color: var(--text-color);
 }
 
 .about-skill .name{

@@ -26,6 +26,7 @@
     font-size: 34px;
     text-wrap: nowrap;
     user-select: none;
+    color: var(--text-color);
 }
 
 .page{
