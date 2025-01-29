@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Gallery from "./pages/Gallery";
 
 function Page(props) {
     const [data, setData] = useState(null);
-    const options = ["static","animated","emails","pop-ups","javascript","react","csharp","sass"];
 
-    const fetchData = async () => {
+    const fetchData = useCallback(async () => {
+        const options = ["static","animated","emails","pop-ups","javascript","react","csharp","sass"];
         if (options.includes(props.option.toLowerCase())) {
             try {
                 const response = await fetch('pages/data_'+ props.option.toLowerCase() +'.json');
@@ -18,9 +18,11 @@ function Page(props) {
         } else{
             setData(null);
         }
-    };
+    }, [props.option]);
 
-    useEffect(() => { props.option && fetchData(); }, [props.option]);
+    useEffect(() => { 
+        props.option && fetchData(); 
+    }, [fetchData, props.option]);
     
 
     return (

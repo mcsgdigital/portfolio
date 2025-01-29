@@ -48,7 +48,7 @@ function Sidebar(props) {
         setDataCopy(props.data);
         setPath([props.data]);
         props.updateData(props.data);
-    }, [props.data])
+    }, [props])
 
 
     return (

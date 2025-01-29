@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import Content from "./content/Content";
 import Navbar from "./navbar/Navbar";
 
@@ -10,7 +10,7 @@ function Container(props) {
   const [data, setData]=useState(null);
     
   
-  const fetchData = async () => {
+  const fetchData = useCallback(async () => {
     try {
       const response = await fetch('data_nav.json');
       const result = await response.json();
@@ -19,9 +19,9 @@ function Container(props) {
     } catch (error) {
       console.error('Error fetching data:', error);
     }
-  };
+  }, [pageName]);
 
-  const themeColoursRange = [
+  const themeColoursRange = useMemo[
     {
       text: "#000000",
       background1: "#ffffff",
@@ -48,7 +48,7 @@ function Container(props) {
   }
 
 
-  function changeTheme(_value){
+  const changeTheme = useCallback((_value) =>{
     const num = parseInt(_value);
     setThemeIndex(num);
 
@@ -58,7 +58,7 @@ function Container(props) {
     document.documentElement.style.setProperty('--background-color3', themeColoursRange[num].background3);
     document.documentElement.style.setProperty('--background-color4', themeColoursRange[num].background4);
     document.documentElement.style.setProperty('--highlight-color', themeColoursRange[num].highlight);
-  }
+  }, [themeColoursRange])
 
   function updatePageOptionName(_value){
     setPageOptionName(_value);
@@ -70,11 +70,11 @@ function Container(props) {
 
   useEffect(() => {
     changeTheme(0);
-  }, [])
+  }, [changeTheme])
 
   useEffect(() => {
       fetchData();
-  }, [pageName]);
+  }, [fetchData]);
 
   useEffect(() => {
       
