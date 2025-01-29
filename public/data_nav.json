@@ -1,0 +1,61 @@
+{
+    
+    "home": {
+        "page": "home",
+        "showSidebar": false
+    },
+
+    "creatives": 
+    {
+        "page": "creatives",
+        "showSidebar": true,
+        "options": 
+        [
+            {
+                "name": "Static"
+            },
+            {
+                "name": "Animated"
+            }
+        ]
+    },
+
+    "emails": 
+    {
+        "page": "emails",
+        "showSidebar": true,
+        "options": 
+        [
+            {
+                "name": "Emails"
+            },
+            {
+                "name": "Pop-ups"
+            }
+        ]
+    },
+
+    "codes": {
+        "page": "codes",
+        "showSidebar": true,
+        "options": 
+        [
+            {
+                "name": "Javascript"
+            },
+            {
+                "name": "React"
+            },
+            {
+                "name": "Csharp"
+            },
+            {
+                "name": "SASS"
+            }
+        ]
+    },
+    "about": {
+        "page": "about",
+        "showSidebar": false
+    }
+}

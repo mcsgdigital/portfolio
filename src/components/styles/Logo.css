@@ -1,0 +1,10 @@
+.logo{
+    height: 100%;
+    width: 30vw;
+}
+
+.logo .copy{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}

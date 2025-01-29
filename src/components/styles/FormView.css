@@ -1,0 +1,80 @@
+.form-margin-top{
+    margin-top: 1vh;
+}
+.form-margin-bottom{
+    margin-bottom: 1vh;
+}
+
+.view-wrapper{
+    width: fit-content;
+    min-width: 225px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 1vh 2vw;
+    translate: -50% -50%;
+}
+
+.view-wrapper .view{
+    width: 100%;
+    padding: 2vh 2vw;
+    background-color: #ffffff;
+}
+
+.view-wrapper .title{
+    text-align: center;
+    padding: 1vh 2vw;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+.view-wrapper form{
+    width: 100%;
+    min-width: 10vw;
+}
+
+.view-wrapper label{
+    text-wrap: nowrap;
+}
+
+.view-wrapper input{
+    width: 100%;
+}
+
+.view-wrapper .warning{
+    font-size: 0.6rem;
+    color: red;
+}
+
+.view-wrapper .buttons-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.view-wrapper .buttons-wrapper button{
+    width: 100%;
+}
+
+.view-wrapper .button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 15px;
+    cursor: pointer;
+}
+
+.view-wrapper .button img{
+    width: inherit;
+    margin: auto;
+    pointer-events: none;
+}
+
+.view-wrapper .button .tooltiptext{
+    pointer-events: none;
+}
+
+.view-wrapper .close-btn{
+    position: absolute;
+    top: 1vh;
+    right: 0.5vw;
+}

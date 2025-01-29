@@ -1,0 +1,28 @@
+.about{
+    display: grid;
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.about-skill{
+    width: 25vw;
+    text-align: left;
+    place-self: center;
+}
+
+.about-skill .name{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-skill .skill{
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.skill .skill-unit{
+    width: 5vw;
+    height: 2vh;
+    background-color: lightseagreen;
+}

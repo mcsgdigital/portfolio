@@ -1,0 +1,78 @@
+/* the sidebar menu */
+
+.sidebar{
+    width: 200px;
+    /* height: 100vh; */
+    border-right: 1px solid var(--border-color);
+}
+
+.sideButtons-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    font-size: 14px;
+    text-align: left;
+    margin: 20px;
+}
+
+.sideButtons-wrapper a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.sideButtons-wrapper a:link { 
+    text-decoration: none; 
+} 
+.sideButtons-wrapper a:visited { 
+    text-decoration: none; 
+} 
+.sideButtons-wrapper a:hover { 
+    text-decoration: none; 
+} 
+.sideButtons-wrapper a:active { 
+    text-decoration: none; 
+}
+
+.sidenav-button{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: fit-content;
+    min-height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+.sidenav-button:hover{
+    background-color: var(--highlight-color);
+}
+.sidenav-button .copy{
+    user-select: none;
+    pointer-events: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.sidenav-button .indicator-more{
+    width: 15px;
+    height: 15px;
+    pointer-events: none;
+}
+.sidenav-button .indicator-more svg{
+    width: inherit;
+    height: inherit;
+}
+
+.sidebar-menu-wrapper{
+    height: 50px;
+    padding: 5px;
+}
+
+.button-back{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.button-back svg{
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}

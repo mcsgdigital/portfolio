@@ -1,0 +1,49 @@
+{
+    "type": "animated",
+    "class": "",
+    "data": 
+    [
+        {
+            "id": 0,
+            "client": "Christopher Ward",
+            "url": "cw",
+            "extension": "mp4"
+        },
+        {
+            "id": 1,
+            "client": "Damart",
+            "url": "damart",
+            "extension": "mp4"
+        },
+        {
+            "id": 2,
+            "client": "Dune",
+            "url": "dune",
+            "extension": "mp4"
+        },
+        {
+            "id": 3,
+            "client": "Esme",
+            "url": "esme",
+            "extension": "mp4"
+        },
+        {
+            "id": 3,
+            "client": "Evolution Money",
+            "url": "evolution",
+            "extension": "mp4"
+        },
+        {
+            "id": 4,
+            "client": "Fairfax",
+            "url": "fairfax",
+            "extension": "mp4"
+        },
+        {
+            "id": 5,
+            "client": "FREEDOM FINANCE",
+            "url": "freedomfinance",
+            "extension": "mp4"
+        }
+    ]
+}

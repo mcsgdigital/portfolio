@@ -1,0 +1,61 @@
+{
+    "type": "image",
+    "class": "",
+    "data": 
+    [
+        {
+            "id": 0,
+            "client": "BAM",
+            "url": "bam",
+            "extension": "jpg"
+        },
+        {
+            "id": 1,
+            "client": "BISCUITEERS",
+            "url": "biscuiteers",
+            "extension": "jpg"
+        },
+        {
+            "id": 2,
+            "client": "BODEN",
+            "url": "boden",
+            "extension": "jpg"
+        },
+        {
+            "id": 3,
+            "client": "FREEDOM FINANCE",
+            "url": "freedomfinance",
+            "extension": "jpg"
+        },
+        {
+            "id": 3,
+            "client": "GO HEATER",
+            "url": "goheater",
+            "extension": "jpg"
+        },
+        {
+            "id": 4,
+            "client": "HARROD",
+            "url": "harrod",
+            "extension": "jpg"
+        },
+        {
+            "id": 5,
+            "client": "HEAL'S'",
+            "url": "heals",
+            "extension": "jpg"
+        },
+        {
+            "id": 6,
+            "client": "HEAL'S",
+            "url": "heals2",
+            "extension": "jpg"
+        },
+        {
+            "id": 7,
+            "client": "KURT GEIGER",
+            "url": "kg",
+            "extension": "jpg"
+        }
+    ]
+}

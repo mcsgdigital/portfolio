@@ -1,0 +1,29 @@
+{
+    "data": 
+    [
+        {
+            "id": 0,
+            "name": "john",
+            "loginStatus": false,
+            "autoLog": false,
+            "email": "johndoe@gmail.com",
+            "password": "abc"
+        },
+        {
+            "id": 1,
+            "name": "bill",
+            "loginStatus": false,
+            "autoLog": false,
+            "email": "bill@gmail.com",
+            "password": "asdfg"
+        },
+        {
+            "id": 2,
+            "name": "mark chantel",
+            "loginStatus": false,
+            "autoLog": false,
+            "email": "mark@gmail.com",
+            "password": "qwerty"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "emails",
+    "class": "lightbox-email",
+    "data": 
+    [
+        {
+            "id": 0,
+            "client": "Jeep",
+            "url": "jeep",
+            "extension": "jpg"
+        },
+        {
+            "id": 1,
+            "client": "Nikon",
+            "url": "nikon",
+            "extension": "jpg"
+        }
+    ]
+}
