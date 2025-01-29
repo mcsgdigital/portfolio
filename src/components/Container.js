@@ -21,25 +21,6 @@ function Container(props) {
     }
   }, [pageName]);
 
-  const themeColoursRange = useMemo[
-    {
-      text: "#000000",
-      background1: "#ffffff",
-      background2: "#f8f9fa", // very light grey /blue
-      background3: "#dddddd", // very light grey /red
-      background4: "#ffffff",
-      highlight: "#dddddd"
-    },
-    {
-      text: "#ffffff",
-      background1: "#000000",
-      background2: "#2f2f2f", // very dark grey /red
-      background3: "#555555", // very grey /red
-      background4: "#1f1f1f", // even darker grey /red
-      highlight: "#3a3a3a" // even darker darker grey /red
-    }
-  ]
-
   function updatePath(add, name){
     add ?
     setFullpath([...fullpath, name])
@@ -52,13 +33,32 @@ function Container(props) {
     const num = parseInt(_value);
     setThemeIndex(num);
 
+    const themeColoursRange = [
+      {
+        text: "#000000",
+        background1: "#ffffff",
+        background2: "#f8f9fa", // very light grey /blue
+        background3: "#dddddd", // very light grey /red
+        background4: "#ffffff",
+        highlight: "#dddddd"
+      },
+      {
+        text: "#ffffff",
+        background1: "#000000",
+        background2: "#2f2f2f", // very dark grey /red
+        background3: "#555555", // very grey /red
+        background4: "#1f1f1f", // even darker grey /red
+        highlight: "#3a3a3a" // even darker darker grey /red
+      }
+    ]
+
     document.documentElement.style.setProperty('--text-color', themeColoursRange[num].text);
     document.documentElement.style.setProperty('--background-color1', themeColoursRange[num].background1);
     document.documentElement.style.setProperty('--background-color2', themeColoursRange[num].background2);
     document.documentElement.style.setProperty('--background-color3', themeColoursRange[num].background3);
     document.documentElement.style.setProperty('--background-color4', themeColoursRange[num].background4);
     document.documentElement.style.setProperty('--highlight-color', themeColoursRange[num].highlight);
-  }, [themeColoursRange])
+  }, [])
 
   function updatePageOptionName(_value){
     setPageOptionName(_value);
