@@ -53,12 +53,6 @@
         },
         {
             "id": 8,
-            "client": "Bradford",
-            "url": "bradford",
-            "extension": "jpg"
-        },
-        {
-            "id": 9,
             "client": "Whittard",
             "url": "whittard",
             "extension": "jpg"

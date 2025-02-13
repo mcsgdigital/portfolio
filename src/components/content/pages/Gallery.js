@@ -27,7 +27,7 @@ function Gallery(props) {
                         case 'image':
                           return <img src={`./assets/banners/${obj.url}.${obj.extension}`} alt='gallery' />
                         case 'animated':
-                          return <video src={`./assets/videos/${obj.url}.${obj.extension}`} controls />
+                          return <video src={`./assets/${obj.url}.${obj.extension}`} controls />
                         case 'emails':
                           return <img src={`./assets/emails/${obj.url}/thumb.jpg`} alt='gallery' onClick={() => OnHandleClick(obj)}/>
                         case 'popups':

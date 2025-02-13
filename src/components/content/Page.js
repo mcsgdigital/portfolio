@@ -5,7 +5,8 @@ function Page(props) {
     const [data, setData] = useState(null);
 
     const fetchData = useCallback(async () => {
-        const options = ["static","animated","emails","pop-ups","javascript","react","csharp","sass"];
+        const options = ["static","animated","emails","pop-ups","javascript","react","csharp","sass","games"];
+        
         if (options.includes(props.option.toLowerCase())) {
             try {
                 const response = await fetch('pages/data_'+ props.option.toLowerCase() +'.json');
