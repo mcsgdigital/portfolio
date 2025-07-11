@@ -3,7 +3,7 @@ import Content from "./content/Content";
 import Navbar from "./navbar/Navbar";
 
 function Container(props) {
-  const [themeIndex, setThemeIndex] = useState(1);
+  const [themeIndex, setThemeIndex] = useState(0);
   const [pageName, setPageName] = useState("home");
   const [pageOptionName, setPageOptionName] = useState("");
   const [fullpath, setFullpath] = useState([]);
@@ -35,20 +35,20 @@ function Container(props) {
 
     const themeColoursRange = [
       {
-        text: "#000000",
-        background1: "#ffffff",
-        background2: "#f8f9fa", // very light grey /blue
-        background3: "#dddddd", // very light grey /red
-        background4: "#ffffff",
-        highlight: "#dddddd"
-      },
-      {
         text: "#ffffff",
         background1: "#000000",
         background2: "#2f2f2f", // very dark grey /red
         background3: "#555555", // very grey /red
         background4: "#1f1f1f", // even darker grey /red
         highlight: "#3a3a3a" // even darker darker grey /red
+      },
+      {
+        text: "#000000",
+        background1: "#ffffff",
+        background2: "#f8f9fa", // very light grey /blue
+        background3: "#dddddd", // very light grey /red
+        background4: "#ffffff",
+        highlight: "#dddddd"
       }
     ]
 
