@@ -33,7 +33,7 @@ function Settings(props) {
                     onChange={changeTheme}
                     checked={props.themeIndex === 0}
                   />
-                  <label htmlFor="html">Light</label>
+                  <label htmlFor="html">Dark</label>
                 </div>
                 <div className='input-wrapper'>
                   <input 
@@ -44,7 +44,7 @@ function Settings(props) {
                       onChange={changeTheme}
                       checked={props.themeIndex === 1}
                   />
-                  <label htmlFor="html">Dark</label>
+                  <label htmlFor="html">Light</label>
                 </div>
               </div>
             </div>
