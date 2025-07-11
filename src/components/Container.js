@@ -3,7 +3,7 @@ import Content from "./content/Content";
 import Navbar from "./navbar/Navbar";
 
 function Container(props) {
-  const [themeIndex, setThemeIndex] = useState(0);
+  const [themeIndex, setThemeIndex] = useState(1);
   const [pageName, setPageName] = useState("home");
   const [pageOptionName, setPageOptionName] = useState("");
   const [fullpath, setFullpath] = useState([]);
