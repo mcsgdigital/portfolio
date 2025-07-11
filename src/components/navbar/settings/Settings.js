@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import icon from '../../../_assets/images/settings.svg';
 
 function Settings(props) {
-  const [showPanel, setShowPanel] = useState(false);
+  const [showPanel, setShowPanel] = useState(true);
 
   const componentRef = useRef();
   
