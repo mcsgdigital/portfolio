@@ -1,5 +1,0 @@
-[00:00:02.260] Server  LOG      ✓ Ready in 1766ms
-[00:15:21.019] Server  WARN    
-[00:15:21.019] Server  WARN    warn "-" "The `content` option in your Tailwind CSS configuration is missing or empty."
-[00:15:21.020] Server  WARN    warn "-" "Configure your content sources or your generated CSS will be missing styles."
-[00:15:21.020] Server  WARN    warn "-" "https://tailwindcss.com/docs/content-configuration"

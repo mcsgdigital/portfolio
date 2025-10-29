@@ -1,7 +1,8 @@
+/** @type {import('next').NextConfig} */
 module.exports = {
   output: 'export', // Ensures the app is exported as a static site
-  distDir: 'build', // Changes the output directory from "out" to "build"
+  distDir: 'out', // Optional: Specify the output folder (default is "out")
   images: {
-    unoptimized: true, // Disables Next.js image optimization
+    unoptimized: true, // Disable image optimization for static export
   },
 };

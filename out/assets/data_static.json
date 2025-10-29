@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Bam",
+        "description": "Clothing brand banner",
+        "imageUrl": "/assets/banners/bam.jpg"
+    },
+    {
+        "title": "Biscuiteers",
+        "description": "Biscuits online ordering",
+        "imageUrl": "/assets/banners/biscuiteers.jpg"
+    },
+    {
+        "title": "Boden",
+        "description": "Clothing brand banner",
+        "imageUrl": "/assets/banners/boden.jpg"
+    },
+    {
+        "title": "Freedom Finance",
+        "description": "Finance services",
+        "imageUrl": "/assets/banners/freedomfinance.jpg"
+    },
+    {
+        "title": "GoHeater",
+        "description": "DIY heating solutions",
+        "imageUrl": "/assets/banners/goheater.jpg"
+    },
+    {
+        "title": "Harrod",
+        "description": "Outdoor furniture and accessories",
+        "imageUrl": "/assets/banners/harrod.jpg"
+    },
+    {
+        "title": "Heal's",
+        "description": "Furniture and home accessories",
+        "imageUrl": "/assets/banners/heals.jpg"
+    },
+    {
+        "title": "Heal's",
+        "description": "Furniture and home accessories",
+        "imageUrl": "/assets/banners/heals2.jpg"
+    },
+    {
+        "title": "Kurt Geiger",
+        "description": "Luxury footwear and accessories",
+        "imageUrl": "/assets/banners/kg.jpg"
+    }
+]
