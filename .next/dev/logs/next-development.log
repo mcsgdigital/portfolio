@@ -1,8 +1,1 @@
-[00:00:02.432] Server  LOG      ✓ Ready in 1853ms
-[00:00:02.721] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:00:04.706] Server  WARN    
-[00:00:04.706] Server  WARN    warn "-" "The `content` option in your Tailwind CSS configuration is missing or empty."
-[00:00:04.706] Server  WARN    warn "-" "Configure your content sources or your generated CSS will be missing styles."
-[00:00:04.707] Server  WARN    warn "-" "https://tailwindcss.com/docs/content-configuration"
-[00:00:05.815] Server  LOG      ○ Compiling / ...
-[00:00:07.295] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:05.498] Server  LOG      ✓ Ready in 3.4s
