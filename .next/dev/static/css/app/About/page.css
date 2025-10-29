@@ -1,0 +1,102 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/app/About/About.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.About_about__FS650{
+    display: flex;
+}
+
+.About_title__MNBo3{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.About_title__MNBo3 > h1{
+    font-size: 2.5rem;
+}
+
+.About_title__MNBo3 > h2{
+    font-size: 2.5rem;
+    margin-left: 50px;
+}
+
+.About_about__FS650 > p{
+    margin: 100px 50px 0 80px;
+    font-size: 0.75rem;
+}
+
+.About_skills__8yL09{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.About_skillContainer__CzU2O{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.About_skillContainer__CzU2O > h3{
+    color: cyan;
+    width: 200px;
+}
+
+.About_skillContainer__CzU2O > .About_bar__4k2kf{
+    width: 200px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 5px 15px 15px 0;
+    position: relative;
+}
+
+.About_skillContainer__CzU2O > .About_bar__4k2kf > .About_fill__LUqtP{
+    height: 100%;
+    background-color: orange;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: About_expand__IvqBt 2s ease-out forwards;
+    --fill-width: 0%; /* Default value */
+}
+
+@keyframes About_expand__IvqBt {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--fill-width +"px");
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .About_about__FS650{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About_title__MNBo3{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .About_title__MNBo3 > h2{
+        margin-left: 0;
+    }
+
+    .About_about__FS650 > p{
+        margin: 50px 20px 0 20px;
+        text-align: center;
+    }
+
+    .About_skillContainer__CzU2O{
+        margin: 5px;
+    }
+    
+}

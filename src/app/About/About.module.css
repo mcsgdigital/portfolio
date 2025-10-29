@@ -1,0 +1,99 @@
+.about{
+    display: flex;
+}
+
+.title{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.title > h1{
+    font-size: 2.5rem;
+}
+
+.title > h2{
+    font-size: 2.5rem;
+    margin-left: 50px;
+}
+
+.about > p{
+    margin: 100px 50px 0 80px;
+    font-size: 0.75rem;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.skillContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.skillContainer > h3{
+    color: cyan;
+    width: 200px;
+}
+
+.skillContainer > .bar{
+    width: 200px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 5px 15px 15px 0;
+    position: relative;
+}
+
+.skillContainer > .bar > .fill{
+    height: 100%;
+    background-color: orange;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: expand 2s ease-out forwards;
+    --fill-width: 0%; /* Default value */
+}
+
+@keyframes expand {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--fill-width +"px");
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .title > h2{
+        margin-left: 0;
+    }
+
+    .about > p{
+        margin: 50px 20px 0 20px;
+        text-align: center;
+    }
+
+    .skillContainer{
+        margin: 5px;
+    }
+    
+}

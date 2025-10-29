@@ -1,0 +1,63 @@
+.h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.header {
+    position: fixed;       /* Fixes it to the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;          /* Adjust as needed */
+    background-color: #000;
+    z-index: 1000;         /* Ensure it's on top of most content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    color: #fff;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: fit-content;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li {
+    padding: 1vh 2vw;
+    position: relative; /* Required for pseudo-elements */
+}
+
+.li:hover {
+    background: linear-gradient(90deg, #ffffff00, #ffffff80, #ffffff00); /* Gradient effect */
+    color: orange; /* Change text color on hover */
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.active {
+    color: orange; /* Highlight the active link */
+    font-weight: bold;
+    border-bottom: 2px solid orange; /* Optional underline effect */
+}
+
+.themeToggle {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+}

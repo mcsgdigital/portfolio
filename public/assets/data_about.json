@@ -1,0 +1,87 @@
+[
+    {
+        "category": "Code",
+        "title": "HTML",
+        "level": 5
+    },
+    {
+        "category": "Code",
+        "title": "Javascript",
+        "level": 5
+    },
+    {
+        "category": "Code",
+        "title": "CSS",
+        "level": 5
+    },
+    {
+        "category": "Code",
+        "title": "SASS",
+        "level": 5
+    },
+    {
+        "category": "Code",
+        "title": "C#/Typescript",
+        "level": 5
+    },
+    {
+        "category": "Code",
+        "title": "React",
+        "level": 2
+    },
+    {
+        "category": "Advertising Platforms",
+        "title": "DoubleClick Studio / Mediamind / FlashTalking / Celtra / Sizmek",
+        "level": 5
+    },
+    {
+        "category": "Code",
+        "title": "Node/Grunt/Gulp",
+        "level": 2
+    },
+    {
+        "category": "Code",
+        "title": "VBA/C++",
+        "level": 1
+    },
+    {
+        "category": "3D / Design Software",
+        "title": "Unity",
+        "level": 3
+    },
+    {
+        "category": "3D / Design Software",
+        "title": "Blender",
+        "level": 2
+    },
+    {
+        "category": "Design",
+        "title": "Adobe Photoshop",
+        "level": 5
+    },
+    {
+        "category": "Design",
+        "title": "Adobe Illustrator",
+        "level": 4
+    },
+    {
+        "category": "Design",
+        "title": "Adobe Media Encoder",
+        "level": 5
+    },
+    {
+        "category": "Design",
+        "title": "Adobe Premiere",
+        "level": 3
+    },
+    {
+        "category": "Design",
+        "title": "Adobe InDesign",
+        "level": 1
+    },
+    {
+        "category": "Design",
+        "title": "Microsoft Excel / Word / PowerPoint",
+        "level": 5
+    }
+]
