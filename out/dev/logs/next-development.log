@@ -1,0 +1,11 @@
+[00:00:03.363] Server  LOG      ✓ Ready in 2.6s
+[00:00:15.905] Server  WARN    
+[00:00:15.906] Server  WARN    warn "-" "The `content` option in your Tailwind CSS configuration is missing or empty."
+[00:00:15.906] Server  WARN    warn "-" "Configure your content sources or your generated CSS will be missing styles."
+[00:00:15.906] Server  WARN    warn "-" "https://tailwindcss.com/docs/content-configuration"
+[00:02:10.549] Browser LOG     SubMenu props: {}
+[00:02:10.549] Browser LOG     [2;38;2;124;124;124m%s[0m SubMenu props: {}
+[00:02:29.322] Browser LOG     SubMenu props: {}
+[00:02:29.322] Browser LOG     [2;38;2;124;124;124m%s[0m SubMenu props: {}
+[00:04:16.915] Browser LOG     SubMenu props: {}
+[00:04:16.915] Browser LOG     [2;38;2;124;124;124m%s[0m SubMenu props: {}
