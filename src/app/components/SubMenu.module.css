@@ -1,16 +1,30 @@
-.subMenu{
+.subMenu {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    /* gap: 20px; */
     background-color: orange;
     color: black;
-    padding: 2px 0;
+    /* padding: 2px 0; */
+    user-select: none;
+    text-align: center;
 }
 
-.link{
+.link {
     /* background-color: white;
     padding: 0 10px;
     border-radius: 2px;
     font-size: 0.9rem; */
+    width: 100%;
+}
+
+.link:hover {
+    /* font-weight: bold; */
+    /* font-size: 1.1rem; */
+    background-color: white;
+}
+
+.active {
+    background-color: #ccc;
+    width: 100%;
 }

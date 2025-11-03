@@ -10,3 +10,269 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:02:43.978] Browser WARN    Image with src "/assets/projects/apps/assembly.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:02:40.025] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:02:40.025] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:02:55.623] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:02:55.623] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:02:55.623] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:02:55.623] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:03:36.811] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:03:36.811] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:03:36.811] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:05:21.843] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:05:21.843] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:06:17.538] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:06:17.538] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:06:17.538] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:07:13.872] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:07:13.872] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:07:33.624] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:07:33.624] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:28:44.259] Browser WARN    Image with src "/assets/projects/apps/assembly.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:30:28.176] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Header`. 
+[07:37:23.361] Browser ERROR   ./src/app/components/Header.module.css:36:1
+Syntax error: Selector "a" is not pure (pure selectors must contain at least one local class or id)
+
+  34 | }
+  35 | 
+> 36 | a {
+     | ^
+  37 |     width: 100%;
+  38 | }
+[07:37:24.271] Server  ERROR    ⨯ ./src/app/components/Header.module.css:36:1
+Syntax error: Selector "a" is not pure (pure selectors must contain at least one local class or id)
+
+  34 | }
+  35 | 
+> 36 | a {
+     | ^
+  37 |     width: 100%;
+  38 | }
+[07:37:45.311] Browser ERROR   ./src/app/components/Header.module.css:36:1
+Syntax error: Selector "a" is not pure (pure selectors must contain at least one local class or id)
+
+  34 | }
+  35 | 
+> 36 | a {
+     | ^
+  37 |     width: 100%;
+  38 | }
+[07:37:45.312] Browser ERROR   ./src/app/components/Header.module.css
+CssSyntax error: Selector "a" is not pure (pure selectors must contain at least one local class or id) (36:1)
+
+  34 | }
+  35 | 
+> 36 | a {
+     | ^
+  37 |     width: 100%;
+  38 | }
+-- inner error --
+CssSyntax error: Selector "a" is not pure (pure selectors must contain at least one local class or id) (36:1)
+
+  34 | }
+  35 | 
+> 36 | a {
+     | ^
+  37 |     width: 100%;
+  38 | }
+Generated code for /Users/markchantel/REACT/build/portfolio/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!/Users/markchantel/REACT/build/portfolio/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!/Users/markchantel/REACT/build/portfolio/src/app/components/Header.module.css
+
+Import trace for requested module:
+./src/app/components/Header.module.css
+./src/app/components/Header.js
+[07:37:45.598] Server  ERROR    ⨯ ./src/app/components/Header.module.css:36:1
+Syntax error: Selector "ul a" is not pure (pure selectors must contain at least one local class or id)
+
+  34 | }
+  35 | 
+> 36 | ul a {
+     | ^
+  37 |     width: 100%;
+  38 | }
+[07:37:45.607] Browser ERROR   ./src/app/components/Header.module.css:36:1
+Syntax error: Selector "ul a" is not pure (pure selectors must contain at least one local class or id)
+
+  34 | }
+  35 | 
+> 36 | ul a {
+     | ^
+  37 |     width: 100%;
+  38 | }
+[07:37:51.360] Browser ERROR   ./src/app/components/Header.module.css:36:1
+Syntax error: Selector "ul a" is not pure (pure selectors must contain at least one local class or id)
+
+  34 | }
+  35 | 
+> 36 | ul a {
+     | ^
+  37 |     width: 100%;
+  38 | }
+[07:37:51.360] Browser ERROR   ./src/app/components/Header.module.css
+CssSyntax error: Selector "a" is not pure (pure selectors must contain at least one local class or id) (36:1)
+
+  34 | }
+  35 | 
+> 36 | a {
+     | ^
+  37 |     width: 100%;
+  38 | }
+-- inner error --
+CssSyntax error: Selector "a" is not pure (pure selectors must contain at least one local class or id) (36:1)
+
+  34 | }
+  35 | 
+> 36 | a {
+     | ^
+  37 |     width: 100%;
+  38 | }
+Generated code for /Users/markchantel/REACT/build/portfolio/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!/Users/markchantel/REACT/build/portfolio/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!/Users/markchantel/REACT/build/portfolio/src/app/components/Header.module.css
+
+Import trace for requested module:
+./src/app/components/Header.module.css
+./src/app/components/Header.js
+[07:37:52.498] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:37:52.498] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:37:52.498] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:38:09.533] Browser WARN    Image with src "/assets/projects/apps/assembly.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:39:25.216] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:39:25.216] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:45:00.739] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[07:45:00.740] Browser ERROR   uncaughtError: Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[07:45:01.757] Server  ERROR    ⨯ Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[07:45:04.709] Browser ERROR   uncaughtError: Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[07:45:49.266] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[07:45:49.998] Server  ERROR    ⨯ Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[07:45:52.003] Browser ERROR   uncaughtError: Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[07:47:38.989] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[07:47:41.715] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:47:44.961] Browser ERROR   uncaughtError: Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[07:51:05.482] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[07:51:08.058] Browser WARN    Image with src "/assets/projects/apps/assembly.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:52:25.716] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:53:16.928] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:53:16.928] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:56:07.514] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:56:07.514] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:56:07.514] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[07:56:13.884] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[08:06:57.323] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[08:06:57.323] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[08:12:24.394] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[08:15:12.581] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[08:15:12.581] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[08:20:26.002] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[08:39:51.826] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[08:39:51.826] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[08:39:51.826] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[08:45:24.713] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[08:45:24.714] Browser ERROR   uncaughtError: ReferenceError: href is not defined
+[08:45:25.254] Server  ERROR    ⨯ ReferenceError: href is not defined
+[08:45:27.228] Browser ERROR   uncaughtError: ReferenceError: href is not defined
+[08:46:24.307] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[08:46:27.239] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[08:49:38.306] Browser LOG     pathname: /WorkSamples
+[08:49:38.306] Browser LOG     [2;38;2;124;124;124m%s[0m pathname: /WorkSamples
+[08:49:45.534] Browser LOG     pathname: /WorkSamples
+[08:49:45.534] Browser LOG     [2;38;2;124;124;124m%s[0m pathname: /WorkSamples
+[08:49:48.782] Browser LOG     pathname: /WorkSamples
+[08:49:48.782] Browser LOG     [2;38;2;124;124;124m%s[0m pathname: /WorkSamples
+[08:50:43.401] Browser LOG     pathname: /WorkSamples
+[08:50:43.402] Browser LOG     [2;38;2;124;124;124m%s[0m pathname: /WorkSamples
+[08:50:44.128] Browser LOG     pathname: /WorkSamples
+[08:50:44.128] Browser LOG     [2;38;2;124;124;124m%s[0m pathname: /WorkSamples
+[08:50:44.895] Browser LOG     pathname: /WorkSamples
+[08:50:44.895] Browser LOG     [2;38;2;124;124;124m%s[0m pathname: /WorkSamples
+[08:51:30.570] Browser LOG     pathname: /WorkSamples
+[08:51:30.570] Browser LOG     [2;38;2;124;124;124m%s[0m pathname: /WorkSamples
+[08:53:36.706] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[08:53:36.706] Browser ERROR   uncaughtError: ReferenceError: textContent is not defined
+[08:53:37.080] Server  ERROR    ⨯ ReferenceError: textContent is not defined
+[08:53:38.979] Browser ERROR   uncaughtError: ReferenceError: textContent is not defined
+[08:58:44.754] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[08:58:47.213] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[08:58:50.065] Browser ERROR   uncaughtError: TypeError: Assignment to constant variable.
+[08:59:32.625] Browser ERROR   uncaughtError: ReferenceError: content is not defined
+[08:59:55.160] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'textContent')
+[09:00:36.983] Browser LOG     SubMenu clicked: EMAILS
+[09:00:36.983] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'textContent')
+[09:02:25.372] Browser LOG     SubMenu clicked: EMAILS
+[09:02:52.639] Browser LOG     SubMenu clicked: #popups
+[09:04:56.042] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[09:08:33.054] Browser ERROR   uncaughtError: TypeError: Assignment to constant variable.
+[09:08:34.245] Browser ERROR   uncaughtError: TypeError: Assignment to constant variable.
+[09:08:35.311] Browser ERROR   uncaughtError: TypeError: Assignment to constant variable.
+[09:08:36.156] Browser ERROR   uncaughtError: TypeError: Assignment to constant variable.
+[09:08:37.184] Browser ERROR   uncaughtError: TypeError: Assignment to constant variable.
+[09:08:38.149] Browser ERROR   uncaughtError: TypeError: Assignment to constant variable.
+[09:08:38.714] Browser ERROR   uncaughtError: TypeError: Assignment to constant variable.
+[09:08:49.409] Browser ERROR   uncaughtError: TypeError: Assignment to constant variable.
+[09:09:26.208] Browser LOG     SubMenu clicked: #banners
+[09:09:28.008] Browser LOG     SubMenu clicked: #emails
+[09:09:29.332] Browser LOG     SubMenu clicked: #popups
+[09:09:30.661] Browser LOG     SubMenu clicked: #banners
+[09:09:31.336] Browser LOG     SubMenu clicked: #emails
+[09:09:32.263] Browser LOG     SubMenu clicked: #popups
+[09:10:12.430] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[09:10:14.299] Browser LOG     SubMenu clicked: #banners
+[09:10:15.707] Browser LOG     SubMenu clicked: #emails
+[09:10:17.062] Browser LOG     SubMenu clicked: #popups
+[09:10:20.166] Browser LOG     SubMenu clicked: #banners
+[09:10:21.576] Browser LOG     SubMenu clicked: #emails
+[09:10:23.367] Browser LOG     SubMenu clicked: #popups
+[09:10:53.452] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[09:10:53.452] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')
+[09:10:55.354] Browser LOG     SubMenu clicked: #banners
+[09:10:56.380] Browser LOG     SubMenu clicked: #emails
+[09:10:58.754] Browser LOG     SubMenu clicked: #popups
+[09:11:11.631] Browser LOG     SubMenu clicked: #banners
+[09:11:12.896] Browser LOG     SubMenu clicked: #emails
+[09:11:14.872] Browser LOG     SubMenu clicked: #popups
+[09:11:20.384] Browser LOG     SubMenu clicked: #banners
+[09:11:21.660] Browser LOG     SubMenu clicked: #emails
+[09:11:29.616] Browser LOG     SubMenu clicked: #banners
+[09:11:30.684] Browser LOG     SubMenu clicked: #emails
+[09:11:32.762] Browser LOG     SubMenu clicked: #popups
+[09:11:35.179] Browser LOG     SubMenu clicked: #emails
+[09:12:20.040] Browser LOG     SubMenu clicked: #banners
+[09:12:21.197] Browser LOG     SubMenu clicked: #popups
+[09:12:22.242] Browser LOG     SubMenu clicked: #emails
+[09:12:26.393] Browser LOG     SubMenu clicked: #banners
+[09:12:27.904] Browser LOG     SubMenu clicked: #popups
+[09:12:29.085] Browser LOG     SubMenu clicked: #emails
+[09:14:40.572] Browser LOG     SubMenu clicked: #banners
+[09:14:41.616] Browser LOG     SubMenu clicked: #banners
+[09:14:42.860] Browser LOG     SubMenu clicked: #popups
+[09:14:44.409] Browser LOG     SubMenu clicked: #emails
+[09:14:48.143] Browser LOG     SubMenu clicked: #banners
+[09:14:50.662] Browser LOG     SubMenu clicked: #emails
+[09:14:52.919] Browser LOG     SubMenu clicked: #banners
+[09:14:55.179] Browser LOG     SubMenu clicked: #popups
+[09:14:56.134] Browser LOG     SubMenu clicked: #emails
+[09:14:56.748] Browser LOG     SubMenu clicked: #banners
+[09:14:58.902] Browser LOG     SubMenu clicked: #popups
+[09:14:59.549] Browser LOG     SubMenu clicked: #emails
+[09:15:00.235] Browser LOG     SubMenu clicked: #banners
+[09:15:02.471] Browser LOG     SubMenu clicked: #popups
+[09:15:03.300] Browser LOG     SubMenu clicked: #emails
+[09:15:04.986] Browser LOG     SubMenu clicked: #banners
+[09:15:05.727] Browser LOG     SubMenu clicked: #emails
+[09:15:08.814] Browser LOG     SubMenu clicked: #popups
+[09:15:10.413] Browser LOG     SubMenu clicked: #banners
+[09:21:21.772] Browser LOG     SubMenu clicked: #banners
+[09:21:23.603] Browser LOG     SubMenu clicked: #emails
+[09:21:26.161] Browser WARN    Image with src "http://localhost:3000/assets/popups/okdo/screenshot.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[09:21:27.795] Browser WARN    Image with src "http://localhost:3000/assets/popups/whittard/screenshot.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[09:21:33.800] Browser LOG     SubMenu clicked: #popups
+[09:22:11.780] Browser LOG     SubMenu clicked: #banners

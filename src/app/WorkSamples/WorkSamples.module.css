@@ -1,8 +1,7 @@
-.section{
-    
+.section {
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -10,24 +9,25 @@
     gap: 10px;
 }
 
-.article{
+.article {
     margin-bottom: 100px;
 }
 
-.sectionTitle{
+.sectionTitle {
     font-weight: bold;
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: column;
     padding: 1vh 2vw;
     background-color: grey;
     border-radius: 5px;
     margin-bottom: 50px;
+    border: 1px solid darkgrey;
 }
 
-.headerLine{
+.headerLine {
     display: grid;
     grid-template-columns: 100px auto;
     grid-template-rows: auto auto;
@@ -37,21 +37,21 @@
     user-select: none;
 }
 
-.headerLine > .span{
+.headerLine > .span {
     color: var(--foreground-highlight);
     font-size: 1em;
 }
 
-.headerLine > .h2{
+.headerLine > .h2 {
     font-size: 1.2em;
     font-weight: bold;
 }
 
-span > .separator{
+span > .separator {
     color: var(--foreground-highlight);
 }
 
-.iFrameOverlay{
+.iFrameOverlay {
     z-index: 1000;
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@ span > .separator{
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-.iFrameOverlay > img{ 
+.iFrameOverlay > img {
     margin: auto;
     position: absolute;
     top: 0;
@@ -73,7 +73,7 @@ span > .separator{
     right: 0;
 }
 
-.btnClose{
+.btnClose {
     z-index: 1000;
     position: absolute;
     top: 0;
@@ -89,7 +89,7 @@ span > .separator{
 }
 
 @media screen and (max-width: 768px) {
-    .btnClose{
+    .btnClose {
         display: block;
     }
 }

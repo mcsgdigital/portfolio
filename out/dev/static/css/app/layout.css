@@ -69,7 +69,7 @@
 /*!********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/app/components/Header.module.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************************/
-.Header_h1__Pxx8F{
+.Header_h1__Pxx8F {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
@@ -77,50 +77,59 @@
 }
 
 .Header_header__b54d9 {
-    position: fixed;       /* Fixes it to the top */
+    position: fixed; /* Fixes it to the top */
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;          /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
     background-color: #000;
-    z-index: 1000;         /* Ensure it's on top of most content */
+    z-index: 1000; /* Ensure it's on top of most content */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
     color: #fff;
 }
 
-.Header_nav__k5_zw{
+.Header_nav__k5_zw {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: #333;
     height: -moz-fit-content;
     height: fit-content;
 }
 
-.Header_ul__Q94Lf{
+.Header_ul__Q94Lf {
     display: flex;
     list-style: none;
-    gap: 20px;
-    justify-content: center;
+    /* gap: 20px; */
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.Header_ul__Q94Lf a {
+    width: 100%;
 }
 
 .Header_li__uyZVk {
     padding: 1vh 2vw;
     position: relative; /* Required for pseudo-elements */
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
 }
 
 .Header_li__uyZVk:hover {
-    background: linear-gradient(90deg, #ffffff00, #ffffff80, #ffffff00); /* Gradient effect */
-    color: orange; /* Change text color on hover */
-    font-weight: bold;
-    font-size: 1.5rem;
+    background-color: #fff;
+    /* background: linear-gradient(90deg, #ffffff00, #ffffff80, #ffffff00); */
+    color: black; /* Change text color on hover */
+    /* font-weight: bold; */
+    /* font-size: 1.5rem; */
 }
 
 .Header_active__LL_3Z {
     color: orange; /* Highlight the active link */
     font-weight: bold;
-    border-bottom: 2px solid orange; /* Optional underline effect */
+    border-bottom: 5px solid orange; /* Optional underline effect */
 }
 
 .Header_themeToggle__2vG8w {
@@ -133,25 +142,43 @@
     cursor: pointer;
     font-size: 1.2rem;
 }
+
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/app/components/SubMenu.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
-.SubMenu_subMenu__KuaEg{
+.SubMenu_subMenu__KuaEg {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    /* gap: 20px; */
     background-color: orange;
     color: black;
-    padding: 2px 0;
+    /* padding: 2px 0; */
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    text-align: center;
 }
 
-.SubMenu_link__P7TMf{
+.SubMenu_link__P7TMf {
     /* background-color: white;
     padding: 0 10px;
     border-radius: 2px;
     font-size: 0.9rem; */
+    width: 100%;
 }
+
+.SubMenu_link__P7TMf:hover {
+    /* font-weight: bold; */
+    /* font-size: 1.1rem; */
+    background-color: white;
+}
+
+.SubMenu_active__d09Qh {
+    background-color: #ccc;
+    width: 100%;
+}
+
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[10].use[3]!./src/app/globals.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************/

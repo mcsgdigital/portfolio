@@ -40,6 +40,7 @@ export default function ArticleVideo(props) {
                         height={props.itemData.size[1]}
                         controls
                         autoPlay
+                        muted
                         loop
                     ></video>
                 </div>

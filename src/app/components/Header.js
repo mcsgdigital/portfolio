@@ -31,6 +31,16 @@ export default function Header() {
         setPageContent(content); // Update the context value
     }
 
+    function CheckButtonStyles(currentPath, linkPath) {
+        if (currentPath === linkPath && linkPath?.toLowerCase() === "/worksamples") {
+            return {
+                fontWeight: "bold",
+                borderBottom: "5px solid #fff",
+            };
+        }
+        return {};
+    }
+
     return (
         <header className={styles.header}>
             <Link href="/" className={styles.homeLink}>
@@ -49,14 +59,18 @@ export default function Header() {
                 <ul className={styles.ul}>
                     {
                         navLinks.map(({ href, label }) => (
-                            <li key={href} className={styles.li}>
-                                <Link 
-                                    href={href} 
-                                    className={pathname === href ? styles.active : undefined}
-                                >
+                            <Link 
+                                key={href} 
+                                href={href} 
+                                className={pathname === href ? styles.active : undefined}
+                                style={
+                                    CheckButtonStyles(pathname, href)
+                                }
+                            >
+                                <li className={styles.li}>
                                     {label}
-                                </Link>
-                            </li>
+                                </li>
+                            </Link>
                         ))
                     }
                 </ul>
