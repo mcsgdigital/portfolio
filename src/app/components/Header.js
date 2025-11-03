@@ -29,6 +29,8 @@ export default function Header() {
     function handleSetPageContent(event) {
         const content = event.target.textContent.toLowerCase().replace("-", "");
         setPageContent(content); // Update the context value
+        console.log("pathname:", pathname);
+        
     }
 
     return (
