@@ -58,7 +58,7 @@ export default function Banners() {
                 
                 <div className={styles.container}>
                     {
-                        dataImage && dataImage.map((project, index) => (
+                        dataImage ? dataImage.map((project, index) => (
                             <Card 
                                 key={index}
                                 title={project.title}
@@ -67,6 +67,8 @@ export default function Banners() {
                                 handleOnClick={() => {}}
                             />
                         ))
+                        :
+                        <p>Loading...</p>
                     }
                 </div>
             </article>
@@ -89,7 +91,7 @@ export default function Banners() {
                 
                 <div className={styles.container}>
                     {
-                        dataVideo && dataVideo.map((project, index) => (
+                        dataVideo ? dataVideo.map((project, index) => (
                             <CardVideo 
                                 key={index}
                                 title={project.title}
@@ -97,6 +99,8 @@ export default function Banners() {
                                 poster={project.poster}
                             />
                         ))
+                        :
+                        <p>Loading...</p>
                     }
                 </div>
             </article>

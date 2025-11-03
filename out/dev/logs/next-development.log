@@ -1,0 +1,12 @@
+[00:00:03.209] Server  LOG      ✓ Ready in 2.5s
+[00:00:17.280] Server  LOG      ○ Compiling / ...
+[00:00:17.349] Server  WARN    
+[00:00:17.350] Server  WARN    warn "-" "The `content` option in your Tailwind CSS configuration is missing or empty."
+[00:00:17.350] Server  WARN    warn "-" "Configure your content sources or your generated CSS will be missing styles."
+[00:00:17.350] Server  WARN    warn "-" "https://tailwindcss.com/docs/content-configuration"
+[00:01:06.181] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:48.259] Browser WARN    Image with src "/assets/projects/apps/assembly.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:43.978] Browser WARN    Image with src "/assets/projects/apps/assembly.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

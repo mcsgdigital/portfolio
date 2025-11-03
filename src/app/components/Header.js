@@ -31,8 +31,6 @@ export default function Header() {
         setPageContent(content); // Update the context value
     }
 
-    console.log("Current pathname:", pathname);
-
     return (
         <header className={styles.header}>
             <Link href="/" className={styles.homeLink}>

@@ -11,7 +11,7 @@ export default function ArticleIFrame(props) {
                 <br/>
                 <div className={styles.container}>
                     {
-                        props.data && props.data.map((project, index) => (
+                        props.data ? props.data.map((project, index) => (
                             <Card
                                 key={index}
                                 title={project.title}
@@ -23,6 +23,8 @@ export default function ArticleIFrame(props) {
                                 handleOnClick={props.handleOnClick}
                             />
                         ))
+                        :
+                        <p>Loading...</p>
                     }
                 </div>
             </article>

@@ -4,7 +4,6 @@ import Link from "next/link";
 import styles from "./SubMenu.module.css";
 
 export default function SubMenu(props) {
-    console.log("SubMenu props:", props);
     
     return (
         <div className={styles.subMenu}>
