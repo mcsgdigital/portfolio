@@ -24,7 +24,6 @@ export default function SubMenu(props) {
     function handleSetPageContent(event) {
         setSelectedPath("#"+ event.target.textContent.toLowerCase().replace("-", ""));
         props.onSetPageContent(event); // Update the context value
-        console.log("SubMenu clicked:", selectedPath);
     }
     
     
