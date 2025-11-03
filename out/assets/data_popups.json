@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Benefit Cosmetics",
+        "imageUrl": "benefitcosmetics",
+        "linkUrl": "benefitcosmetics/screenshot.jpg"
+    },
+    {
+        "title": "Bradford Exchange",
+        "imageUrl": "bradford",
+        "linkUrl": "bradford/screenshot.jpg"
+    },
+    {
+        "title": "Mint Velvet",
+        "imageUrl": "mintvelvet",
+        "linkUrl": "mintvelvet/screenshot.jpg"
+    },
+    {
+        "title": "Okdo",
+        "imageUrl": "okdo",
+        "linkUrl": "okdo/screenshot.png"
+    },
+    {
+        "title": "Plumo",
+        "imageUrl": "plumo",
+        "linkUrl": "plumo/screenshot.jpg"
+    },
+    {
+        "title": "Schoffel",
+        "imageUrl": "schoffel",
+        "linkUrl": "schoffel/screenshot.jpg"
+    },
+    {
+        "title": "SouthEastern Railway",
+        "imageUrl": "southeasternrailway",
+        "linkUrl": "southeasternrailway/screenshot.jpg"
+    },
+    {
+        "title": "Trimtex",
+        "imageUrl": "trimtex",
+        "linkUrl": "trimtex/screenshot.jpg"
+    },
+    {
+        "title": "Whittard",
+        "imageUrl": "whittard",
+        "linkUrl": "whittard/screenshot.jpg"
+    }
+]

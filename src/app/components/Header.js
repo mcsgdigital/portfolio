@@ -29,9 +29,9 @@ export default function Header() {
     function handleSetPageContent(event) {
         const content = event.target.textContent.toLowerCase().replace("-", "");
         setPageContent(content); // Update the context value
-        console.log("pathname:", pathname);
-        
     }
+
+    console.log("Current pathname:", pathname);
 
     return (
         <header className={styles.header}>
@@ -63,7 +63,7 @@ export default function Header() {
                     }
                 </ul>
                 {
-                    pathname === "/WorkSamples" && <SubMenu onSetPageContent={handleSetPageContent} />
+                    pathname?.toLowerCase() === "/worksamples" && <SubMenu onSetPageContent={handleSetPageContent} />
                 }
             </nav>
         </header>
