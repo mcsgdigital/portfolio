@@ -167,3 +167,45 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [13:51:36.703] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[13:59:38.666] Browser LOG     #banners | #banners
+[13:59:38.666] Browser LOG     #emails | #banners
+[13:59:38.666] Browser LOG     #popups | #banners
+[13:59:38.666] Browser LOG     [2;38;2;124;124;124m%s[0m #banners | #banners
+[13:59:38.666] Browser LOG     [2;38;2;124;124;124m%s[0m #emails | #banners
+[13:59:38.666] Browser LOG     [2;38;2;124;124;124m%s[0m #popups | #banners
+[13:59:48.831] Browser LOG     #banners | #banners
+[13:59:48.831] Browser LOG     #emails | #banners
+[13:59:48.831] Browser LOG     #popups | #banners
+[13:59:48.831] Browser LOG     [2;38;2;124;124;124m%s[0m #banners | #banners
+[13:59:48.831] Browser LOG     [2;38;2;124;124;124m%s[0m #emails | #banners
+[13:59:48.831] Browser LOG     [2;38;2;124;124;124m%s[0m #popups | #banners
+[14:00:00.563] Browser LOG     #banners | #popups
+[14:00:00.563] Browser LOG     #emails | #popups
+[14:00:00.563] Browser LOG     #popups | #popups
+[14:00:00.563] Browser LOG     [2;38;2;124;124;124m%s[0m #banners | #popups
+[14:00:00.563] Browser LOG     [2;38;2;124;124;124m%s[0m #emails | #popups
+[14:00:00.564] Browser LOG     [2;38;2;124;124;124m%s[0m #popups | #popups
+[14:00:12.462] Browser LOG     #banners | #popups
+[14:00:12.462] Browser LOG     #emails | #popups
+[14:00:12.462] Browser LOG     #popups | #popups
+[14:00:12.462] Browser LOG     [2;38;2;124;124;124m%s[0m #banners | #popups
+[14:00:12.462] Browser LOG     [2;38;2;124;124;124m%s[0m #emails | #popups
+[14:00:12.462] Browser LOG     [2;38;2;124;124;124m%s[0m #popups | #popups
+[14:02:05.300] Browser LOG     #banners | #popups
+[14:02:05.300] Browser LOG     #emails | #popups
+[14:02:05.300] Browser LOG     #popups | #popups
+[14:02:05.300] Browser LOG     [2;38;2;124;124;124m%s[0m #banners | #popups
+[14:02:05.300] Browser LOG     [2;38;2;124;124;124m%s[0m #emails | #popups
+[14:02:05.300] Browser LOG     [2;38;2;124;124;124m%s[0m #popups | #popups
+[14:02:15.643] Browser LOG     #banners | #popups
+[14:02:15.643] Browser LOG     #emails | #popups
+[14:02:15.643] Browser LOG     #popups | #popups
+[14:02:15.643] Browser LOG     [2;38;2;124;124;124m%s[0m #banners | #popups
+[14:02:15.643] Browser LOG     [2;38;2;124;124;124m%s[0m #emails | #popups
+[14:02:15.643] Browser LOG     [2;38;2;124;124;124m%s[0m #popups | #popups
+[14:02:42.216] Browser LOG     button style: #banners | #popups
+[14:02:42.216] Browser LOG     button style: #emails | #popups
+[14:02:42.216] Browser LOG     button style: #popups | #popups
+[14:02:42.216] Browser LOG     [2;38;2;124;124;124m%s[0m button style: #banners | #popups
+[14:02:42.216] Browser LOG     [2;38;2;124;124;124m%s[0m button style: #emails | #popups
+[14:02:42.216] Browser LOG     [2;38;2;124;124;124m%s[0m button style: #popups | #popups
