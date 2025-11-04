@@ -20,9 +20,6 @@ export default function Header() {
     const [theme, setTheme] = useState("dark");
     const { setPageContent } = usePageContent(); // Access the context
 
-    console.log("Current Pathname:", pathname);
-    
-
     function toggleTheme() {
         const newTheme = theme === "light" ? "dark" : "light";
         setTheme(newTheme);
@@ -65,7 +62,7 @@ export default function Header() {
                             <Link 
                                 key={href} 
                                 href={href} 
-                                className={pathname === href ? styles.active : undefined}
+                                className={pathname.toLowerCase().replace("-", "") === href ? styles.active : undefined}
                                 style={
                                     CheckButtonStyles(pathname, href)
                                 }

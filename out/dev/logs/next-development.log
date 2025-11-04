@@ -46,3 +46,120 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:01:19.536] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /About
 [00:01:20.791] Browser LOG     Current Pathname: /WorkSamples
 [00:01:20.791] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:06:02.832] Browser LOG     Current Pathname: /WorkSamples
+[00:06:02.832] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:06:08.738] Browser LOG     Current Pathname: /
+[00:06:08.738] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:06:08.738] Browser LOG     Current Pathname: /
+[00:06:08.738] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:06:08.738] Browser LOG     Current Pathname: /
+[00:06:08.738] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:06:08.876] Browser LOG     Current Pathname: /
+[00:06:08.876] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:06:10.129] Server  LOG     Current Pathname: "/"
+[00:06:11.608] Browser LOG     Current Pathname: /
+[00:06:11.608] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:06:13.695] Browser LOG     Current Pathname: /About
+[00:06:13.695] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /About
+[00:06:13.695] Browser LOG     Current Pathname: /About
+[00:06:13.695] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /About
+[00:06:15.286] Browser LOG     Current Pathname: /Projects
+[00:06:15.286] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:06:15.286] Browser LOG     Current Pathname: /Projects
+[00:06:15.286] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:06:15.286] Browser LOG     Current Pathname: /Projects
+[00:06:15.286] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:06:18.001] Browser LOG     Current Pathname: /WorkSamples
+[00:06:18.001] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:06:18.001] Browser LOG     Current Pathname: /WorkSamples
+[00:06:18.001] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:06:18.001] Browser LOG     Current Pathname: /WorkSamples
+[00:06:18.001] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:06:19.821] Browser LOG     Current Pathname: /Projects
+[00:06:19.822] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:06:21.070] Browser LOG     Current Pathname: /About
+[00:06:21.070] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /About
+[00:06:22.197] Browser LOG     Current Pathname: /Projects
+[00:06:22.197] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:06:23.132] Browser LOG     Current Pathname: /WorkSamples
+[00:06:23.132] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:06:42.580] Browser LOG     Current Pathname: /Projects
+[00:06:42.580] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:06:55.915] Browser LOG     Current Pathname: /WorkSamples
+[00:06:55.915] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:07:58.905] Browser LOG     Current Pathname: /WorkSamples
+[00:07:58.905] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:07:58.905] Browser LOG     Current Pathname: /Projects
+[00:07:58.905] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:08:00.388] Browser LOG     Current Pathname: /About
+[00:08:00.389] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /About
+[00:08:04.477] Browser LOG     Current Pathname: /
+[00:08:04.477] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:08:05.718] Server  LOG     Current Pathname: "/"
+[00:08:07.566] Browser LOG     Current Pathname: /
+[00:08:07.566] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:08:08.391] Browser LOG     Current Pathname: /Projects
+[00:08:08.391] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:08:08.391] Browser LOG     Current Pathname: /Projects
+[00:08:08.391] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:08:08.545] Browser LOG     Current Pathname: /Projects
+[00:08:08.545] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:08:09.644] Browser LOG     Current Pathname: /About
+[00:08:09.644] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /About
+[00:08:09.644] Browser LOG     Current Pathname: /About
+[00:08:09.644] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /About
+[00:08:09.644] Browser LOG     Current Pathname: /About
+[00:08:09.644] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /About
+[00:08:11.063] Browser LOG     Current Pathname: /WorkSamples
+[00:08:11.063] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:08:11.063] Browser LOG     Current Pathname: /WorkSamples
+[00:08:11.063] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:08:11.063] Browser LOG     Current Pathname: /WorkSamples
+[00:08:11.063] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:08:11.939] Browser LOG     Current Pathname: /Projects
+[00:08:11.940] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:10:05.830] Browser LOG     Current Pathname: /Projects
+[00:10:05.830] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:10:12.232] Server  LOG     Current Pathname: "/Projects"
+[00:10:13.781] Browser LOG     Current Pathname: /Projects
+[00:10:13.781] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:10:13.957] Browser WARN    Image with src "/assets/projects/apps/assembly.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:10:17.016] Browser LOG     Current Pathname: /About
+[00:10:17.016] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /About
+[00:10:17.016] Browser LOG     Current Pathname: /About
+[00:10:17.016] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /About
+[00:10:19.319] Browser LOG     Current Pathname: /
+[00:10:19.319] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:10:19.319] Browser LOG     Current Pathname: /
+[00:10:19.319] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:10:19.319] Browser LOG     Current Pathname: /
+[00:10:19.319] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:10:19.319] Browser LOG     Current Pathname: /
+[00:10:19.319] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:10:19.319] Browser LOG     Current Pathname: /
+[00:10:19.319] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:10:19.319] Browser LOG     Current Pathname: /
+[00:10:19.319] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:10:19.319] Browser LOG     Current Pathname: /
+[00:10:19.319] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /
+[00:10:22.014] Browser LOG     Current Pathname: /Projects
+[00:10:22.014] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:10:23.560] Browser LOG     Current Pathname: /WorkSamples
+[00:10:23.560] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:10:23.560] Browser LOG     Current Pathname: /WorkSamples
+[00:10:23.560] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:10:23.560] Browser LOG     Current Pathname: /WorkSamples
+[00:10:23.560] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:10:26.415] Browser LOG     Current Pathname: /WorkSamples
+[00:10:26.415] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:10:27.384] Browser LOG     Current Pathname: /WorkSamples
+[00:10:27.384] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:10:29.107] Browser LOG     Current Pathname: /Projects
+[00:10:29.107] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:10:30.397] Browser LOG     Current Pathname: /WorkSamples
+[00:10:30.397] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[00:10:41.085] Browser LOG     Current Pathname: /Projects
+[00:10:41.085] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
+[00:10:42.350] Browser LOG     Current Pathname: /WorkSamples
+[00:10:42.350] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
