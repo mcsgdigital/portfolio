@@ -209,3 +209,7 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [14:02:42.216] Browser LOG     [2;38;2;124;124;124m%s[0m button style: #banners | #popups
 [14:02:42.216] Browser LOG     [2;38;2;124;124;124m%s[0m button style: #emails | #popups
 [14:02:42.216] Browser LOG     [2;38;2;124;124;124m%s[0m button style: #popups | #popups
+[15:04:45.465] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[15:19:04.216] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
