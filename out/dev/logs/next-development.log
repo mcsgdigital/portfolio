@@ -163,3 +163,7 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:10:41.085] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /Projects
 [00:10:42.350] Browser LOG     Current Pathname: /WorkSamples
 [00:10:42.350] Browser LOG     [2;38;2;124;124;124m%s[0m Current Pathname: /WorkSamples
+[10:26:06.538] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[13:51:36.703] Browser WARN    Image with src "/assets/banners/bam.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

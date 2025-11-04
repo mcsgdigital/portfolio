@@ -19,6 +19,7 @@ export default function Header() {
     const pathname = usePathname();
     const [theme, setTheme] = useState("dark");
     const { setPageContent } = usePageContent(); // Access the context
+    const [selectedSubPath, setSelectedSubPath] = useState("#banners");
 
     function toggleTheme() {
         const newTheme = theme === "light" ? "dark" : "light";
@@ -39,6 +40,10 @@ export default function Header() {
             };
         }
         return {};
+    }
+
+    function handleSubPath(event) {
+        setSelectedSubPath("#" + event.target.textContent.toLowerCase().replace("-", ""));
     }
 
     return (
@@ -75,7 +80,12 @@ export default function Header() {
                     }
                 </ul>
                 {
-                    pathname?.toLowerCase() === "/worksamples" && <SubMenu onSetPageContent={handleSetPageContent} />
+                    pathname?.toLowerCase() === "/worksamples" && 
+                    <SubMenu 
+                        onSetPageContent={handleSetPageContent} 
+                        handleSubPath={handleSubPath}
+                        subPath={selectedSubPath}
+                    />
                 }
             </nav>
         </header>
