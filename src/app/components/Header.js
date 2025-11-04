@@ -44,8 +44,6 @@ export default function Header() {
 
     function handleSubPath(event) {
         setSelectedSubPath("#" + event.target.textContent.toLowerCase().replace("-", ""));
-        console.log("[Header] Selected SubPath: " + selectedSubPath);
-        
     }
 
     return (

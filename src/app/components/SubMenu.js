@@ -11,7 +11,6 @@ export default function SubMenu(props) {
     ];
 
     function GetStyle(buttonName){
-        console.log("button style: "+ buttonName + " | " + props.subPath);
         if (buttonName === props.subPath) {
             return styles.active;
         } else {
