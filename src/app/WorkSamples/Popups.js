@@ -34,7 +34,7 @@ export default function Popups() {
     return (
         <section id="popups" style={{ padding: "2rem" }} className={styles.section}>
             <article className={styles.article}>
-                <h2 className={styles.sectionTitle}>EMAILS</h2>
+                <h2 className={styles.sectionTitle}>NEWSLETTERS & LANDING PAGES</h2>
                 <header className={styles.header}>
                     <HeaderInfo 
                         title="Coding:" 
