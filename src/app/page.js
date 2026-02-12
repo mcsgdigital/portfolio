@@ -1,7 +1,9 @@
 import Image from "next/image";
 import backgroundImg from "../assets/images/background.jpeg";
+import Navigation from "./components/Navigation";
 
 export default function Home() {
+
   return (
     <main>
       <Image 
@@ -10,6 +12,7 @@ export default function Home() {
         loading="eager"
         className="homeBackground"
       />
+      <Navigation/>
     </main>
   );
 }

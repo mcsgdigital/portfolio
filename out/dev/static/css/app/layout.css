@@ -81,7 +81,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px; /* Adjust as needed */
+    height: 60px;
     background-color: #000;
     z-index: 1000; /* Ensure it's on top of most content */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
@@ -92,30 +92,30 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: rgba(0, 0, 0, 0.5); */
     background-color: #333;
-    height: -moz-fit-content;
-    height: fit-content;
 }
 
 .Header_ul__Q94Lf {
     display: flex;
-    list-style: none;
-    /* gap: 20px; */
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.Header_ul__Q94Lf a {
-    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    gap: 5vh;
+    margin-left: 10vw;
 }
 
 .Header_li__uyZVk {
     padding: 1vh 2vw;
-    position: relative; /* Required for pseudo-elements */
-    font-weight: 500;
-    width: 100%;
-    text-align: center;
+    position: relative;
+    font-weight: bold;
+    width: -moz-fit-content;
+    width: fit-content;
+    background: #ffffff50;
+    border-radius: 10px;
+    font-size: 2rem;
 }
 
 .Header_li__uyZVk:hover {
@@ -128,7 +128,6 @@
 
 .Header_active__LL_3Z {
     color: orange; /* Highlight the active link */
-    font-weight: bold;
     border-bottom: 5px solid orange; /* Optional underline effect */
 }
 
@@ -718,15 +717,5 @@ body {
 
 .paddingTop {
     padding-top: 100px;
-}
-
-.homeBackground {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
 }
 

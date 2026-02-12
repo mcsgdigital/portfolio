@@ -32,15 +32,15 @@ export default function Header() {
         setPageContent(content); // Update the context value
     }
 
-    function CheckButtonStyles(currentPath, linkPath) {
-        if (currentPath === linkPath && linkPath?.toLowerCase() === "/worksamples") {
-            return {
-                fontWeight: "bold",
-                borderBottom: "5px solid #fff",
-            };
-        }
-        return {};
-    }
+    // function CheckButtonStyles(currentPath, linkPath) {
+    //     if (currentPath === linkPath && linkPath?.toLowerCase() === "/worksamples") {
+    //         return {
+    //             fontWeight: "bold",
+    //             borderBottom: "5px solid #fff",
+    //         };
+    //     }
+    //     return {};
+    // }
 
     function handleSubPath(event) {
         setSelectedSubPath("#" + event.target.textContent.toLowerCase().replace("-", ""));
@@ -60,7 +60,7 @@ export default function Header() {
                     <FaMoon className={styles.moonIcon} />
                 }
             </button> */}
-            <nav className={styles.nav}>
+            {/* <nav className={styles.nav}>
                 <ul className={styles.ul}>
                     {
                         navLinks.map(({ href, label }) => (
@@ -78,7 +78,7 @@ export default function Header() {
                             </Link>
                         ))
                     }
-                </ul>
+                </ul> */}
                 {
                     pathname?.toLowerCase() === "/worksamples" && 
                     <SubMenu 
@@ -87,7 +87,7 @@ export default function Header() {
                         subPath={selectedSubPath}
                     />
                 }
-            </nav>
+            {/* </nav> */}
         </header>
     );
 }
