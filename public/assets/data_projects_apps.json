@@ -4,13 +4,23 @@
         "imageUrl": "assembly",
         "linkUrl": "https://mcsgdigital.github.io/react-game-assembly/",
         "size": [500, 800],
-        "description": "A hangman-style word guessing game built with React.js, featuring dynamic word selection and real-time feedback."
+        "description": "A hangman-style word guessing game built with React.js, featuring dynamic word selection and real-time feedback.",
+        "openInNewTab": false
     },
     {
         "title": "Tenzies",
         "imageUrl": "tenzies",
         "linkUrl": "https://mcsgdigital.github.io/react-game-tenzies/",
         "size": [400, 500],
-        "description": "A simple dice game where players roll ten dice and aim to get all dice to show the same number, utilizing React.js for interactive gameplay."
+        "description": "A simple dice game where players roll ten dice and aim to get all dice to show the same number, utilizing React.js for interactive gameplay.",
+        "openInNewTab": false
+    },
+    {
+        "title": "Car Traders",
+        "imageUrl": "cartraders",
+        "linkUrl": "https://car-traders.netlify.app/",
+        "size": [800, 500],
+        "description": "A full-stack web application for buying and selling cars, featuring user authentication, car listings, and an admin dashboard.",
+        "openInNewTab": true
     }
 ]

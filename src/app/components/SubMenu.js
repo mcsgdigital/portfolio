@@ -1,44 +1,49 @@
-"use client";
-
+import { useState } from "react";
 import Link from "next/link";
-import styles from "./SubMenu.module.css";
 
 export default function SubMenu(props) {
-    const navLinks = [
-        { href: "#banners", label: "BANNERS" },
-        { href: "#emails", label: "EMAILS" },
-        { href: "#popups", label: "POP-UPS" },
-    ];
+    const [activeButton, setActiveButton] = useState("banners"); // Default to "Banners"
 
-    function GetStyle(buttonName){
-        if (buttonName === props.subPath) {
-            return styles.active;
-        } else {
-            return styles.link;
-        }
-    }
+    const handleButtonClick = (buttonName) => {
+        setActiveButton(buttonName);
+        props.onSetPageContent(buttonName); // Call the parent handler
+    };
 
-    function handleSetPageContent(event) {
-        props.handleSubPath(event);
-        props.onSetPageContent(event); // Update the context value
-    }
-    
-    
     return (
-        <div className={styles.subMenu}>
-            {
-                navLinks.map((link) => (
-                    <Link 
-                        key={link.href} 
-                        href={link.href} 
-                        // className={styles.link} 
-                        className={GetStyle(link.href)}
-                        onClick={handleSetPageContent}
-                    >
-                        {link.label}
-                    </Link>
-                ))
-            }
+        <div className="flex items-center justify-center space-x-6 bg-gray-800 p-2 w-full rounded-md shadow-md">
+            <Link
+                href="#banners"
+                className={`px-4 py-2 text-sm rounded-md transition-colors ${
+                    activeButton === "banners"
+                        ? "bg-orange-500 text-black font-bold"
+                        : "bg-gray-700 text-white hover:bg-gray-600"
+                }`}
+                onClick={() => handleButtonClick("banners")}
+            >
+                BANNERS
+            </Link>
+            <Link
+                href="#emails"
+                className={`px-4 py-2 text-sm rounded-md transition-colors ${
+                    activeButton === "emails"
+                        ? "bg-orange-500 text-black font-bold"
+                        : "bg-gray-700 text-white hover:bg-gray-600"
+                }`}
+                onClick={() => handleButtonClick("emails")}
+            >
+                EMAILS
+            </Link>
+            <Link
+                href="#popups"
+                className={`px-4 py-2 text-sm rounded-md transition-colors ${
+                    activeButton === "popups"
+                        ? "bg-orange-500 text-black font-bold"
+                        : "bg-gray-700 text-white hover:bg-gray-600"
+                }`}
+                onClick={() => handleButtonClick("popups")}
+            >
+                POP-UPS
+            </Link>
         </div>
-    )
+    );
 }

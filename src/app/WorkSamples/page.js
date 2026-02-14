@@ -10,7 +10,7 @@ export default function WorkSamples() {
 
     return (
         <>
-            <div className="paddingTop">
+            <div className="mt-40">
                 {
                     pageContent === "banners" ? <Banners /> :
                     pageContent === "emails" ? <Emails /> :

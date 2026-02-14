@@ -1,18 +1,15 @@
 import Image from "next/image";
 import backgroundImg from "../assets/images/background.jpeg";
-import Navigation from "./components/Navigation";
 
 export default function Home() {
-
   return (
-    <main>
-      <Image 
+    <main className="relative h-screen w-full">
+      <Image
         src={backgroundImg}
         alt="Home background"
         loading="eager"
-        className="homeBackground"
+        className="absolute inset-0 object-cover w-full h-full"
       />
-      <Navigation/>
     </main>
   );
 }

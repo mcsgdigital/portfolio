@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import styles from "./Projects.module.css";
 import ArticleIFrame from "../components/ArticleIFrame";
 import ArticleVideo from "../components/ArticleVideo";
 
@@ -27,26 +26,26 @@ export default function Projects() {
         setItemDataGAMES(null);
     }
 
-    function GetDATA_apps(){
+    function GetDATA_apps() {
         fetch("./assets/data_projects_apps.json")
-        .then((res) => res.json())
-        .then((newData) => {
-            setDataAPPS(newData);
-        })
-        .catch((error) => {
-            console.error("Error fetching projects data:", error);
-        });
+            .then((res) => res.json())
+            .then((newData) => {
+                setDataAPPS(newData);
+            })
+            .catch((error) => {
+                console.error("Error fetching projects data:", error);
+            });
     }
 
-    function GetDATA_games(){
+    function GetDATA_games() {
         fetch("./assets/data_projects_games.json")
-        .then((res) => res.json())
-        .then((newData) => {
-            setDataGAMES(newData);
-        })
-        .catch((error) => {
-            console.error("Error fetching projects data:", error);
-        });
+            .then((res) => res.json())
+            .then((newData) => {
+                setDataGAMES(newData);
+            })
+            .catch((error) => {
+                console.error("Error fetching projects data:", error);
+            });
     }
 
     useEffect(() => {
@@ -55,7 +54,10 @@ export default function Projects() {
     }, []);
 
     return (
-        <section id="projects" style={{ padding: "2rem" }} className={styles.section}>
+        <section
+            id="projects"
+            className="mt-24 bg-gray-800 text-white p-8 rounded-md shadow-md"
+        >
             <ArticleIFrame
                 data={dataAPPS}
                 handleOnClick={handleOnClickAPPS}
@@ -69,5 +71,5 @@ export default function Projects() {
                 handleItemClick={handleGamesClick}
             />
         </section>
-    )
+    );
 }

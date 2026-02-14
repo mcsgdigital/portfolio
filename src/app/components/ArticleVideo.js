@@ -1,17 +1,16 @@
 import Card from "./Card";
-import styles from "../Projects/Projects.module.css";
 
 export default function ArticleVideo(props) {
 
     return (
         <>
-            <article className={styles.article}>
-                <h2 className={styles.sectionTitle}>DEMOS</h2>
-                <hr className={styles.divider}/>
+            <article className="mb-16">
+                <h2 className="text-2xl font-bold text-white">DEMOS</h2>
+                <hr className="border-gray-600 my-4"/>
                 <br/>
-                <div className={styles.container}>
+                <div className="flex flex-wrap justify-center gap-4">
                     {
-                        props.data ? props.data.map((project, index) => (
+                        props.data && props.data.map((project, index) => (
                             <Card 
                                 key={index}
                                 title={project.title}
@@ -23,24 +22,20 @@ export default function ArticleVideo(props) {
                                 handleOnClick={props.handleOnClick}
                             />
                         ))
-                        :
-                        <p>Loading...</p>
                     }
                 </div>
             </article>
             
             {
                 props.itemData && 
-                <div className={styles.iFrameOverlay} onClick={props.handleItemClick}>
+                <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-1000" onClick={props.handleItemClick}>
                     <video 
-                        className={styles.iframe}
                         src={props.itemData.link} 
                         title={props.itemData.title}
                         width={props.itemData.size[0]}
                         height={props.itemData.size[1]}
                         controls
                         autoPlay
-                        muted
                         loop
                     ></video>
                 </div>

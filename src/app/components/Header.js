@@ -2,9 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import styles from "./Header.module.css";
-import { FaMoon, FaSun } from "react-icons/fa";
-import { useState } from "react";
 import SubMenu from "./SubMenu";
 import { usePageContent } from "../context/PageContentContext";
 
@@ -12,82 +9,52 @@ const navLinks = [
     { href: "/About", label: "About" },
     { href: "/Projects", label: "Projects" },
     { href: "/WorkSamples", label: "Work Samples" },
-    // { href: "/Contact", label: "Contact" },
 ];
 
 export default function Header() {
     const pathname = usePathname();
-    const [theme, setTheme] = useState("dark");
     const { setPageContent } = usePageContent(); // Access the context
-    const [selectedSubPath, setSelectedSubPath] = useState("#banners");
 
-    function toggleTheme() {
-        const newTheme = theme === "light" ? "dark" : "light";
-        setTheme(newTheme);
-        document.documentElement.setAttribute("data-theme", newTheme);
-    }
-
-    function handleSetPageContent(event) {
-        const content = event.target.textContent.toLowerCase().replace("-", "");
-        setPageContent(content); // Update the context value
-    }
-
-    // function CheckButtonStyles(currentPath, linkPath) {
-    //     if (currentPath === linkPath && linkPath?.toLowerCase() === "/worksamples") {
-    //         return {
-    //             fontWeight: "bold",
-    //             borderBottom: "5px solid #fff",
-    //         };
-    //     }
-    //     return {};
-    // }
-
-    function handleSubPath(event) {
-        setSelectedSubPath("#" + event.target.textContent.toLowerCase().replace("-", ""));
-    }
+    const handleSetPageContent = (buttonName) => {
+        const content = buttonName.toLowerCase().replace("-", "");
+        setPageContent(buttonName); // Update the context value
+    };
 
     return (
-        <header className={styles.header}>
-            <Link href="/" className={styles.homeLink}>
-                <h1 className={styles.h1}>Mark CHANTEL</h1>
-            </Link>
-            {/* <button 
-                className={styles.themeToggle} aria-label="Toggle Dark/Light Theme"
-                onClick={toggleTheme}>
-                {
-                    theme === "light" ?
-                    <FaSun className={styles.sunIcon} /> :
-                    <FaMoon className={styles.moonIcon} />
-                }
-            </button> */}
-            {/* <nav className={styles.nav}>
-                <ul className={styles.ul}>
-                    {
-                        navLinks.map(({ href, label }) => (
-                            <Link 
-                                key={href} 
-                                href={href} 
-                                className={pathname.toLowerCase().replace("-", "") === href ? styles.active : undefined}
-                                style={
-                                    CheckButtonStyles(pathname, href)
-                                }
-                            >
-                                <li className={styles.li}>
+        <header className="fixed top-0 left-0 w-full bg-black z-[1000] shadow-md py-4">
+            <div className="container mx-auto flex flex-col items-center space-y-4 px-4">
+                {/* Title */}
+                <Link href="/" className="text-center">
+                    <h1 className="text-3xl font-bold text-white">
+                        Mark CHANTEL
+                    </h1>
+                </Link>
+
+                {/* Navbar */}
+                <nav>
+                    <ul className="flex space-x-4">
+                        {navLinks.map(({ href, label }) => (
+                            <li key={href} className="list-none">
+                                <Link
+                                    href={href}
+                                    className={`px-3 py-1 rounded-md transition-colors ${
+                                        pathname === href
+                                            ? "bg-gray-700 text-white font-semibold"
+                                            : "text-gray-300 hover:text-white"
+                                    }`}
+                                >
                                     {label}
-                                </li>
-                            </Link>
-                        ))
-                    }
-                </ul> */}
-                {
-                    pathname?.toLowerCase() === "/worksamples" && 
-                    <SubMenu 
-                        onSetPageContent={handleSetPageContent} 
-                        handleSubPath={handleSubPath}
-                        subPath={selectedSubPath}
-                    />
-                }
-            {/* </nav> */}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
+
+                {/* Submenu for Work Samples */}
+                {pathname === "/WorkSamples" && (
+                    <SubMenu onSetPageContent={handleSetPageContent} />
+                )}
+            </div>
         </header>
     );
 }
