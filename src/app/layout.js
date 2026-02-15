@@ -20,15 +20,21 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="dark:bg-neutral-600 bg-white">
+    <html lang="en" className="dark:bg-neutral-600 bg-white min-h-screen">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased dark:text-white text-black`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased dark:text-white text-black min-h-screen`}
       >
         <PageContentProvider>
           <Header />
-          {children}
+          <div className="max-w-[1200px] mx-auto px-4">
+            {children}
+          </div>
         </PageContentProvider>
       </body>
     </html>
   );
+}
+
+export function usePageContent() {
+  return useContext(PageContentContext);
 }

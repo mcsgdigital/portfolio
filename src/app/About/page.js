@@ -23,8 +23,7 @@ export default function About() {
     }, []);
 
     return (
-        <div>
-            <h1 className={styles.h1}>Mark CHANTEL</h1>
+        <div className='pt-40'>
             <section id="about" className={styles.about} style={{ padding: "2rem" }}>
                 <div className={styles.title}>
                     <h1>FRONT END</h1>

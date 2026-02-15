@@ -1,16 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
-export default function SubMenu(props) {
-    const [activeButton, setActiveButton] = useState("banners"); // Default to "Banners"
+export default function SubMenu({ currentPage, onSetPageContent }) {
+    const [activeButton, setActiveButton] = useState(currentPage); // Initialize with currentPage
+
+    useEffect(() => {
+        setActiveButton(currentPage); // Update activeButton when currentPage changes
+    }, [currentPage]);
 
     const handleButtonClick = (buttonName) => {
         setActiveButton(buttonName);
-        props.onSetPageContent(buttonName); // Call the parent handler
+        onSetPageContent(buttonName); // Call the parent handler
     };
 
     return (
-        <div className="flex items-center justify-center space-x-6 bg-gray-800 p-2 w-full rounded-md shadow-md">
+        <div className="flex items-center justify-center space-x-6 bg-gray-800 p-2 w-[94%] rounded-md shadow-md">
             <Link
                 href="#banners"
                 className={`px-4 py-2 text-sm rounded-md transition-colors ${

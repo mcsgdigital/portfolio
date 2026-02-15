@@ -13,16 +13,16 @@ const navLinks = [
 
 export default function Header() {
     const pathname = usePathname();
-    const { setPageContent } = usePageContent(); // Access the context
+    const { pageContent, setPageContent } = usePageContent(); // Access the context
 
     const handleSetPageContent = (buttonName) => {
         const content = buttonName.toLowerCase().replace("-", "");
-        setPageContent(buttonName); // Update the context value
+        setPageContent(content); // Update the context value
     };
 
     return (
         <header className="fixed top-0 left-0 w-full bg-black z-[1000] shadow-md py-4">
-            <div className="container mx-auto flex flex-col items-center space-y-4 px-4">
+            <div className="container mx-auto flex flex-col items-center space-y-4 px-4 max-w-[1200px]">
                 {/* Title */}
                 <Link href="/" className="text-center">
                     <h1 className="text-3xl font-bold text-white">
@@ -52,7 +52,7 @@ export default function Header() {
 
                 {/* Submenu for Work Samples */}
                 {pathname === "/WorkSamples" && (
-                    <SubMenu onSetPageContent={handleSetPageContent} />
+                    <SubMenu currentPage={pageContent} onSetPageContent={handleSetPageContent} />
                 )}
             </div>
         </header>
