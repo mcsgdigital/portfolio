@@ -21,13 +21,18 @@
     },
     {
         "category": "Code",
-        "title": "C#/Typescript",
+        "title": "C#",
         "level": 5
     },
     {
         "category": "Code",
-        "title": "React",
-        "level": 2
+        "title": "React / NextJS",
+        "level": 3
+    },
+    {
+        "category": "Styling",
+        "title": "Tailwind CSS",
+        "level": 3
     },
     {
         "category": "Advertising Platforms",
@@ -37,7 +42,7 @@
     {
         "category": "Code",
         "title": "Node/Grunt/Gulp",
-        "level": 2
+        "level": 1
     },
     {
         "category": "Code",

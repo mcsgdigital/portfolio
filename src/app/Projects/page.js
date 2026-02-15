@@ -56,7 +56,7 @@ export default function Projects() {
     return (
         <section
             id="projects"
-            className="mt-24 bg-gray-800 text-white p-8 rounded-md shadow-md"
+            className="mt-24 text-white p-8 rounded-md shadow-md"
         >
             <ArticleIFrame
                 data={dataAPPS}

@@ -21,7 +21,7 @@ export default function ArticleIFrame(props) {
                     <span className="inline-block text-lg font-bold">⧉</span> indicates the app will open in a new tab.
                 </p>
                 {/* Line Separator */}
-                <hr className="border-gray-600 my-4" />
+                <hr className="border-gray-400 my-4" />
                 <br />
                 {/* Cards Container */}
                 <div className="flex flex-wrap justify-center gap-4">

@@ -17,10 +17,3 @@
         --muted-foreground: #a3a3a3;
     }
 }
-
-body {
-    background: var(--background);
-    background-color: var(--background-secondary);
-    color: var(--foreground);
-    font-family: Arial, Helvetica, sans-serif;
-}

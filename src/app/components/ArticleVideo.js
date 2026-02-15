@@ -6,7 +6,7 @@ export default function ArticleVideo(props) {
         <>
             <article className="mb-16">
                 <h2 className="text-2xl font-bold text-white">DEMOS</h2>
-                <hr className="border-gray-600 my-4"/>
+                <hr className="border-gray-400 my-4"/>
                 <br/>
                 <div className="flex flex-wrap justify-center gap-4">
                     {

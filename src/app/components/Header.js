@@ -8,7 +8,7 @@ import { usePageContent } from "../context/PageContentContext";
 const navLinks = [
     { href: "/About", label: "About" },
     { href: "/Projects", label: "Projects" },
-    { href: "/WorkSamples", label: "Work Samples" },
+    { href: "/WorkSamples", label: "Professional Samples" },
 ];
 
 export default function Header() {
