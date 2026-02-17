@@ -26,7 +26,7 @@ export default function Header() {
         <header className="fixed top-0 left-0 w-full bg-black z-[1000] shadow-md py-4">
             <div className="container mx-auto flex flex-col items-center space-y-4 px-4 max-w-[1200px]">
                 {/* Title */}
-                <Link href="/" className="text-center absolute">
+                <Link href="/" className="text-center absolute md:relative">
                     <h1 className="text-3xl font-bold text-white">
                         Mark CHANTEL
                     </h1>
@@ -47,7 +47,7 @@ export default function Header() {
                 <nav
                     className={`${
                         isMenuOpen ? "block" : "hidden"
-                    } md:flex md:space-x-4 w-full`}
+                    } md:flex md:space-x-4  w-[96%]`}
                 >
                     <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0">
                         {navLinks.map(({ href, label }) => (
