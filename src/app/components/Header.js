@@ -7,9 +7,9 @@ import SubMenu from "./SubMenu";
 import { usePageContent } from "../context/PageContentContext";
 
 const navLinks = [
-    { href: "/About", label: "About" },
-    { href: "/Projects", label: "Projects" },
-    { href: "/WorkSamples", label: "Professional Samples" },
+    { href: "/about", label: "About" },
+    { href: "/projects", label: "Projects" },
+    { href: "/worksamples", label: "Professional Samples" },
 ];
 
 export default function Header() {
@@ -69,7 +69,7 @@ export default function Header() {
                 </nav>
 
                 {/* Submenu for Work Samples */}
-                {pathname === "/WorkSamples" && (
+                {pathname === "/worksamples" && (
                     <SubMenu currentPage={pageContent} onSetPageContent={handleSetPageContent} />
                 )}
             </div>
