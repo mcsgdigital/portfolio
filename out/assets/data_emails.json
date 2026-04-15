@@ -10,5 +10,17 @@
         "imageUrl": "nikon/thumb.jpg",
         "linkUrl": "nikon",
         "size": 600
+    },
+    {
+        "title": "Owen's Corning",
+        "imageUrl": "owenscorner/thumb.jpg",
+        "linkUrl": "owenscorner",
+        "size": 600
+    },
+    {
+        "title": "Smithfield",
+        "imageUrl": "smithfield/thumb.jpg",
+        "linkUrl": "smithfield",
+        "size": 600
     }
 ]

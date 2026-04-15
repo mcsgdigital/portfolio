@@ -1,7 +1,0 @@
-[00:00:04.552] Server  LOG      ✓ Ready in 3.8s
-[00:00:16.662] Server  WARN    [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
-[00:00:17.061] Server  LOG      ○ Compiling /Projects ...
-[00:00:17.479] Server  WARN    
-[00:00:17.480] Server  WARN    warn "-" "The `content` option in your Tailwind CSS configuration is missing or empty."
-[00:00:17.480] Server  WARN    warn "-" "Configure your content sources or your generated CSS will be missing styles."
-[00:00:17.480] Server  WARN    warn "-" "https://tailwindcss.com/docs/content-configuration"
