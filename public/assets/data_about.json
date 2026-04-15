@@ -21,33 +21,73 @@
     },
     {
         "category": "Code",
-        "title": "C#",
-        "level": 5
+        "title": "React",
+        "level": 4
     },
     {
         "category": "Code",
-        "title": "React / NextJS",
+        "title": "Next.js",
+        "level": 2
+    },
+    {
+        "category": "Code",
+        "title": "Typescript",
+        "level": 2
+    },
+    {
+        "category": "Code",
+        "title": "Jest",
         "level": 3
     },
     {
-        "category": "Styling",
-        "title": "Tailwind CSS",
+        "category": "Code",
+        "title": "Storybook",
         "level": 3
+    },
+    {
+        "category": "Code",
+        "title": "Contentful",
+        "level": 4
     },
     {
         "category": "Advertising Platforms",
-        "title": "DoubleClick Studio / Mediamind / FlashTalking / Celtra / Sizmek",
+        "title": "DoubleClick Studio",
+        "level": 5
+    },
+    {
+        "category": "Advertising Platforms",
+        "title": "Mediamind",
+        "level": 5
+    },
+    {
+        "category": "Advertising Platforms",
+        "title": "FlashTalking",
+        "level": 5
+    },
+    {
+        "category": "Advertising Platforms",
+        "title": "Celtra",
+        "level": 2
+    },
+    {
+        "category": "Advertising Platforms",
+        "title": "Sizmek",
         "level": 5
     },
     {
         "category": "Code",
         "title": "Node/Grunt/Gulp",
-        "level": 1
+        "level": 2
     },
     {
         "category": "Code",
         "title": "VBA/C++",
         "level": 1
+    },
+    {
+        "category": "Code",
+        "title": "C#",
+        "level": 4
     },
     {
         "category": "3D / Design Software",

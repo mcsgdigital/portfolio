@@ -1,19 +1,18 @@
-import styles from './About.module.css';
-
-export default function Skill(props) {
+export default function Skill({ title, level }) {
     const barWidth = 200;
     const maxLevel = 5;
-    const level = (barWidth * (props.level / maxLevel));
+    const calculatedWidth = (barWidth * (level / maxLevel)); // Calculate the width of the filled bar
 
     return (
-        <div className={styles.skillContainer}>
-            <h3>{props.title}</h3>
-            <div className={styles.bar}>
-                <div 
-                    className={styles.fill} 
-                    style={{ 
-                        width: level + 'px', 
-                        "--fill-width": level  }}
+        <div className="flex flex-col space-y-2">
+            {/* Skill Title */}
+            <h3 className="text-lg font-medium text-gray-800">{title}</h3>
+
+            {/* Skill Bar */}
+            <div className="w-full bg-gray-300 rounded-full h-4">
+                <div
+                    className="bg-blue-500 h-4 rounded-full"
+                    style={{ width: `${calculatedWidth}px` }}
                 ></div>
             </div>
         </div>
