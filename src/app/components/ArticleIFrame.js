@@ -44,15 +44,16 @@ export default function ArticleIFrame(props) {
             {/* iFrame Lightbox */}
             {props.itemData && !props.itemData.openInNewTab && (
                 <div
-                    className="fixed inset-0 bg-black/80 flex items-center justify-center z-1000"
+                    className="fixed inset-0 bg-black/80 flex items-center justify-center z-1000 overflow-hidden"
                     onClick={props.handleItemClick}
                 >
                     <iframe
                         src={props.itemData.linkUrl}
                         title="Assembly"
-                        width={props.itemData.size[0]}
-                        height={props.itemData.size[1]}
-                    ></iframe>
+                        width={window.innerWidth * 0.8}
+                        height={window.innerHeight * 0.8}
+                        className="border-0 rounded-lg shadow-lg"
+                    />
                 </div>
             )}
         </>

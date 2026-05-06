@@ -1,45 +1,40 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Skill from './Skill';
+import Skill from "./Skill";
 
 export default function About() {
     const [data, setData] = useState(null);
 
-    function GetDATA(){
+    function GetDATA() {
         fetch("./assets/data_about.json")
-        .then((res) => res.json())
-        .then((newData) => {
-            setData(newData);
-        })
-        .catch((error) => {
-            console.error("Error fetching projects data:", error);
-        });
+            .then((res) => res.json())
+            .then((newData) => setData(newData))
+            .catch((error) =>
+                console.error("Error fetching projects data:", error)
+            );
     }
 
     useEffect(() => {
         GetDATA();
     }, []);
 
-    // Group skills by category
     const groupedSkills = data
         ? data.reduce((acc, skill) => {
-              if (!acc[skill.category]) {
-                  acc[skill.category] = [];
-              }
+              if (!acc[skill.category]) acc[skill.category] = [];
               acc[skill.category].push(skill);
               return acc;
           }, {})
         : {};
 
     return (
-        <div className="p-10 pt-50 max-w-4xl mx-auto">
+        <div className={`p-5 sm:p-10 pt-30 sm:pt-50 max-w-4xl mx-auto`}>
             <section id="about" className="bg-gray-100 p-8 pb-20 rounded-lg shadow-md">
                 <div className="text-center mb-8">
                     <h1 className="text-4xl font-bold text-gray-800">FRONT END</h1>
                     <h2 className="text-2xl font-semibold text-gray-600">WEB DEVELOPER</h2>
                 </div>
-                <div className="space-y-6">
+                <div className="text-sm md:text-lg space-y-6">
                     <h3 className="text-xl font-semibold text-gray-800">About Me</h3>
                     <p className="text-gray-700">
                         I’m a JavaScript Frontend Engineer with over 10 years of professional experience building scalable, high-performance web applications. Throughout my career, I’ve worked across diverse industries, delivering clean, maintainable code and intuitive user experiences that align closely with business goals.

@@ -22,5 +22,29 @@
         "size": [800, 500],
         "description": "A full-stack web application for buying and selling cars, featuring user authentication, car listings, and an admin dashboard.",
         "openInNewTab": true
+    },
+    {
+        "title": "Counter",
+        "imageUrl": "counter",
+        "linkUrl": "https://mcsgdigital.github.io/react-demo-counter/",
+        "size": [400, 600],
+        "description": "A simple counter application built with React.js, allowing users to increment, decrement, and reset the count with a user-friendly interface.",
+        "openInNewTab": false
+    },
+    {
+        "title": "Calculator",
+        "imageUrl": "calculator",
+        "linkUrl": "https://mcsgdigital.github.io/react-demo-calculator/",
+        "size": [400, 600],
+        "description": "A basic calculator application built with React.js, providing functionality for addition, subtraction, multiplication, and division with a clean and intuitive design.",
+        "openInNewTab": false
+    },
+    {
+        "title": "Blog",
+        "imageUrl": "blog",
+        "linkUrl": "https://mcsgdigital.github.io/react-demo-blog/",
+        "size": [400, 600],
+        "description": "A simple blog application built with React.js.",
+        "openInNewTab": false
     }
 ]
